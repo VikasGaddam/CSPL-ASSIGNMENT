@@ -1,0 +1,23 @@
+.flex-container{
+  display: flex;
+}
+
+
+.flex-child {
+  flex: 1;
+}
+
+.flex-child:first-child {
+  margin-right: 100px;
+} 
+
+.custom02 input, textarea{
+  padding: 0;
+	background: none;
+	border: none;
+	border-radius: 0;
+	outline: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
